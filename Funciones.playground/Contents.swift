@@ -21,15 +21,25 @@ func calcAverage(n1: Double, n2: Double, n3: Double) -> Double {
 
 calcAverage(n1: 1, n2: 2, n3: 3);
 
-let nota2 = 6
-if(nota2 >= 0 && nota2 < 2) {
-    print("Te fue muy mal en el examen")
-} else if(nota2 >= 2 && nota2 < 3) {
-    print("Losiento, estubo cerca de aprovar")
-} else if(nota2 >= 3 && nota2 < 4) {
-    print("Pasastes, pero lo puedes hacer mejor")
-} else if(nota2 >= 4 && nota2 <= 5 ) {
-    print("Pasastes el examen!")
-} else {
-    print("Hubo un error en el sistema")
+func getFinalGrade(grade: Double) -> String{
+    
+    if(grade >= 0 && grade < 2) {
+        return "Te fue muy mal en el examen"
+    } else if(grade >= 2 && grade < 3) {
+        return "Losiento, estubo cerca de aprovar"
+    } else if(grade >= 3 && grade < 4) {
+        return "Pasastes, pero lo puedes hacer mejor"
+    } else if(grade >= 4 && grade <= 5 ) {
+        return "Pasastes el examen!"
+    } else {
+        return "Hubo un error en el sistema"
+    }
 }
+
+getFinalGrade(grade: 0)
+getFinalGrade(grade: 1)
+getFinalGrade(grade: 2)
+getFinalGrade(grade: 3)
+getFinalGrade(grade: 4)
+getFinalGrade(grade: 5)
+
