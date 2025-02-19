@@ -16,12 +16,14 @@
 		0B80A2B42D662FA600E992B7 /* Diccionarios.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Diccionarios.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0B80A2B52D66351200E992B7 /* While.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = While.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0B80A2B62D6636D700E992B7 /* For.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = For.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0B80A2B72D663CD200E992B7 /* Ejercicio.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Ejercicio.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		0B4E9F8C2D65DE2C00F4DF2F = {
 			isa = PBXGroup;
 			children = (
+				0B80A2B72D663CD200E992B7 /* Ejercicio.playground */,
 				0B80A2B62D6636D700E992B7 /* For.playground */,
 				0B80A2B52D66351200E992B7 /* While.playground */,
 				0B80A2B42D662FA600E992B7 /* Diccionarios.playground */,
