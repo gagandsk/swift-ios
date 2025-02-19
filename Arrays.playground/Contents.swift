@@ -16,4 +16,15 @@ frutas.append("Fresa")
 
 //Agregar un elemento a una posicion especifica
 frutas.insert("Platano", at: 1)
+
+var nuevasFrutas = ["Naranja", "Durazno"]
+frutas.append(contentsOf: nuevasFrutas)
+
+let existeMango = frutas.contains("Mango") //true
+let existeMango2 = frutas.contains("mango") //false
+let existeManzana = frutas.contains("Manzana") //true
+
+frutas.remove(at: 2)
+frutas.removeLast()
+frutas.removeAll()
 print(frutas)
